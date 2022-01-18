@@ -21,7 +21,7 @@ project(CPPTest)
 
 set(CMAKE_CXX_STANDARD 20)
 
-# Links Curl; "l" for "library", then follows the library name.
+# Links CURL; "l" for "library", then follows the library name.
 set(CURL_LIBRARY "-lcurl")
 # Find CURL
 find_package(CURL REQUIRED)
